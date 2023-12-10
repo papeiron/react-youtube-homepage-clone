@@ -1,30 +1,28 @@
-# React + TypeScript + Vite
+## 1. About
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clone of the youtube homepage.
 
-Currently, two official plugins are available:
+Built in React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 2. Screenshots
+![youtube1](https://github.com/papeiron/react-youtube-homepage-clone/assets/151983680/4e4ae93d-0d4c-4e38-aae4-ca4972589c23)
+![youtube2](https://github.com/papeiron/react-youtube-homepage-clone/assets/151983680/de9ef8fb-c1c2-4558-a41a-ca17262dd2d8)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 3. How to run the app
 
-- Configure the top-level `parserOptions` property like this:
+Start JSON Server on port 3004
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+``` json-server --watch .src/data/db.json --port 3004 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Run the app
+
+``` npm run dev ```
+
+## 4. Used technologies
+- [React](https://reactjs.org/)
+- [Redux](https://redux.js.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Sass](https://sass-lang.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [JSON Server](https://github.com/typicode/json-server)
