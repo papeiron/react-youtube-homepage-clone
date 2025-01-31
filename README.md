@@ -24,5 +24,4 @@ Run the app
 - [Redux](https://redux.js.org/)
 - [Typescript](https://www.typescriptlang.org/)
 - [Sass](https://sass-lang.com/)
-- [Tailwind CSS](https://tailwindcss.com/)
 - [JSON Server](https://github.com/typicode/json-server)
