@@ -9,17 +9,7 @@ Built in React.
 ![youtube2](https://github.com/papeiron/react-youtube-homepage-clone/assets/151983680/de9ef8fb-c1c2-4558-a41a-ca17262dd2d8)
 
 
-## 3. How to run the app
-
-Start JSON Server on port 3004
-
-``` json-server --watch .src/data/db.json --port 3004 ```
-
-Run the app
-
-``` npm run dev ```
-
-## 4. Used technologies
+## 3. Used technologies
 - [React](https://reactjs.org/)
 - [Redux](https://redux.js.org/)
 - [Typescript](https://www.typescriptlang.org/)
